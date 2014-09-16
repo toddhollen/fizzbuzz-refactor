@@ -1,9 +1,11 @@
 $(document).ready(function () {
 
+        var g, num;
+
         var fizzBuzz = function (g) {
 
-            var num = $('#input-line').val();
-            var g = +num;
+            num = $('#input-line').val();
+            g = +num;
 
        if (g < 101 && g >= 1 && g % 1==0){
 
